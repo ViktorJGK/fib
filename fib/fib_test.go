@@ -6,7 +6,7 @@ import (
 
 func TestFib(t *testing.T) {
 	//her går testen
-	input := 1
+	input := 10
 	got := Fib(input)
 	want := 1
 	if got != want {
